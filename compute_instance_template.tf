@@ -110,5 +110,6 @@ resource "google_compute_url_map" "default" {
 /*
 output "gcp_backend_self_link" {
   value = "${google_compute_global_address.default.address}"
-  
+test!!!!
+
 }*/
