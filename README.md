@@ -19,3 +19,18 @@ URL on AWS. AWS has been chosen for convenience, because the author has a domain
 
 The terraform project is structured in the following folder hierarchy
 
+|---- Main
+|     |---- gcp_service_account_credentials.json
+|     |---- terraform.tfvars
+|     |---- poc_terraform_gcp
+|     |     |---- arecord.tf
+|     |     |---- aws_provider.tf 
+|     |     |---- compute_instance_template.tf
+|     |     |---- networks.tf
+|     |     |---- provider.tf
+
+
+
+The files <gcp_service_account_credentials.json> and <terraform.tfvars> are not part of this repository and
+need to be created in the parent directory of the project.
+
