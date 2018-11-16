@@ -75,7 +75,7 @@ This command will start a terraform dry run, where all found *.tf files are inte
 `terraform run -var-file=--/terraform.tfvars`
 
 This command will start the deployment.
-NOTE: Because the variable "aws_r53_subdomain" is not set in the tfvars file, terraform will prompt for a value
+**NOTE**: Because the variable "aws_r53_subdomain" is not set in the tfvars file, terraform will prompt for a value
 prior execution.
 
 The following resources will be created
