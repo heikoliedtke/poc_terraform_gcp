@@ -13,29 +13,30 @@ URL on AWS. AWS has been chosen for convenience, because the author has a domain
 
 * Local installation of [terraform](https://www.terraform.io/intro/index.html)
 * Create a GCP project for use with terraform according to this [GCP tutorial](https://cloud.google.com/community/tutorials/managing-gcp-projects-with-terraform)
+* Create a GCP service account with suitable roles and permissions and store the credentials.json file local
 
 
 ## Directory Structure
 
 The terraform project is structured in the following folder hierarchy
 
- ---- Main
+ |---- Main
 
       |---- gcp_service_account_credentials.json
 
       |---- terraform.tfvars
 
-     |---- poc_terraform_gcp
+      |---- poc_terraform_gcp
 
-           |---- arecord.tf
+            |---- arecord.tf
 
-           |---- aws_provider.tf
+            |---- aws_provider.tf
 
-           |---- compute_instance_template.tf
+            |---- compute_instance_template.tf
 
-           |---- networks.tf
+            |---- networks.tf
 
-           |---- provider.tf
+            |---- provider.tf
 
 
 
