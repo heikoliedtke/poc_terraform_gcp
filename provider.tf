@@ -3,8 +3,6 @@
 variable "credentials" {}
 variable "project" {}
 variable "region" {}
-variable "public_key_path" {}
-variable "private_key_path" {}
 variable "startup_script" {}
  
 

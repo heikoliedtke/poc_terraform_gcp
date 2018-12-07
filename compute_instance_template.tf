@@ -19,7 +19,6 @@ resource "google_compute_instance_template" "webserver" {
 
   metadata {
     startup-script-url = "${var.startup_script}"
-    ssh-keys = "heikoliedtke:${file("${var.public_key_path}")}"
   }
 
   service_account {
