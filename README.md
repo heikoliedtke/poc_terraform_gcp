@@ -106,4 +106,9 @@ new deployment. An AWS R53 A record, which is pointing to a GCP global frontend 
 `terraform destroy -var-file=--/terraform.tfvars`
 
 
+## Changes
+
+12/07/2018 - Removed variables and references for SSH Pub keys.
+
+
 
