@@ -20,10 +20,9 @@ resource "google_compute_instance_template" "webserver" {
   metadata {
 
     startup-script-url = "${var.startup_script}"
-    MYSQL_ROOT_PASSWORD = "${var.mysql_root_password}"
-    MYSQL_DATABASE = "${var.mysql_database}"
-    MYSQL_USER = "${var.mysql_user}"
-    MYSQL_PASSWORD = "${var.mysql_password}"
+    GIT_USER = "${var.git_user}"
+    GIT_PWD = "${var.git_pwd}"
+
 
   }
 
