@@ -36,7 +36,7 @@ resource "google_compute_instance_group_manager" "webservers" {
   instance_template  = "${google_compute_instance_template.webserver.self_link}"
   base_instance_name = "webserver"
   zone               = "europe-west3-a"
-  target_size        = 2
+  target_size        = 1
 }
 resource "google_compute_http_health_check" "default" {
   name               = "test"
